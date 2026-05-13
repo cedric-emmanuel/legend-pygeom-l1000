@@ -563,7 +563,6 @@ def _get_support_structure(
             support_solid, materials.metal_copper, "hpge_support_copper_string_support_structure", registry
         )
         support_lv.pygeom_color_rgba = (0.72, 0.45, 0.2, 1)
-        # support_lv.pygeom_color_rgba = (0, 0, 1, 1)
 
     else:
         support_lv = registry.logicalVolumeDict["hpge_support_copper_string_support_structure"]
